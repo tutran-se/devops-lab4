@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\trand\\Desktop\\COMP367\\DinhTuTran_Lab04\\StringLibrary\\StringLibrary.csproj": {}
+    "C:\\Users\\trand\\Desktop\\COMP367\\DinhTuTran_Lab04\\ShowCase\\ShowCase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\trand\\Desktop\\COMP367\\DinhTuTran_Lab04\\StringLibrary\\StringLibrary.csproj": {
+    "C:\\Users\\trand\\Desktop\\COMP367\\DinhTuTran_Lab04\\ShowCase\\ShowCase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trand\\Desktop\\COMP367\\DinhTuTran_Lab04\\StringLibrary\\StringLibrary.csproj",
-        "projectName": "StringLibrary",
-        "projectPath": "C:\\Users\\trand\\Desktop\\COMP367\\DinhTuTran_Lab04\\StringLibrary\\StringLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\trand\\Desktop\\COMP367\\DinhTuTran_Lab04\\ShowCase\\ShowCase.csproj",
+        "projectName": "ShowCase",
+        "projectPath": "C:\\Users\\trand\\Desktop\\COMP367\\DinhTuTran_Lab04\\ShowCase\\ShowCase.csproj",
         "packagesPath": "C:\\Users\\trand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trand\\Desktop\\COMP367\\DinhTuTran_Lab04\\StringLibrary\\obj\\",
+        "outputPath": "C:\\Users\\trand\\Desktop\\COMP367\\DinhTuTran_Lab04\\ShowCase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "StringLibrary": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
